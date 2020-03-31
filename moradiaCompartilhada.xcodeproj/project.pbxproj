@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0D03A22433B75B0076B9FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A12433B75B0076B9FA /* AppDelegate.swift */; };
+		FE0D03A42433B75B0076B9FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */; };
+		FE0D03A62433B75B0076B9FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A52433B75B0076B9FA /* ViewController.swift */; };
+		FE0D03A92433B75B0076B9FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0D03A72433B75B0076B9FA /* Main.storyboard */; };
+		FE0D03AB2433B75D0076B9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0D03AA2433B75D0076B9FA /* Assets.xcassets */; };
+		FE0D03AE2433B75D0076B9FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0D03AC2433B75D0076B9FA /* LaunchScreen.storyboard */; };
+		FE0D03B92433B75D0076B9FA /* moradiaCompartilhadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03B82433B75D0076B9FA /* moradiaCompartilhadaTests.swift */; };
+		FE0D03C42433B75D0076B9FA /* moradiaCompartilhadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03C32433B75D0076B9FA /* moradiaCompartilhadaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE0D03B52433B75D0076B9FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0D03962433B75B0076B9FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0D039D2433B75B0076B9FA;
+			remoteInfo = moradiaCompartilhada;
+		};
+		FE0D03C02433B75D0076B9FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0D03962433B75B0076B9FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0D039D2433B75B0076B9FA;
+			remoteInfo = moradiaCompartilhada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0D039E2433B75B0076B9FA /* moradiaCompartilhada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moradiaCompartilhada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0D03A12433B75B0076B9FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE0D03A52433B75B0076B9FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE0D03A82433B75B0076B9FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0D03AA2433B75D0076B9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0D03AD2433B75D0076B9FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0D03AF2433B75D0076B9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0D03B42433B75D0076B9FA /* moradiaCompartilhadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moradiaCompartilhadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0D03B82433B75D0076B9FA /* moradiaCompartilhadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moradiaCompartilhadaTests.swift; sourceTree = "<group>"; };
+		FE0D03BA2433B75D0076B9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0D03BF2433B75D0076B9FA /* moradiaCompartilhadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moradiaCompartilhadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0D03C32433B75D0076B9FA /* moradiaCompartilhadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moradiaCompartilhadaUITests.swift; sourceTree = "<group>"; };
+		FE0D03C52433B75D0076B9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0D039B2433B75B0076B9FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0D03B12433B75D0076B9FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0D03BC2433B75D0076B9FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0D03952433B75B0076B9FA = {
+			isa = PBXGroup;
+			children = (
+				FE0D03A02433B75B0076B9FA /* moradiaCompartilhada */,
+				FE0D03B72433B75D0076B9FA /* moradiaCompartilhadaTests */,
+				FE0D03C22433B75D0076B9FA /* moradiaCompartilhadaUITests */,
+				FE0D039F2433B75B0076B9FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0D039F2433B75B0076B9FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D039E2433B75B0076B9FA /* moradiaCompartilhada.app */,
+				FE0D03B42433B75D0076B9FA /* moradiaCompartilhadaTests.xctest */,
+				FE0D03BF2433B75D0076B9FA /* moradiaCompartilhadaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0D03A02433B75B0076B9FA /* moradiaCompartilhada */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D03A12433B75B0076B9FA /* AppDelegate.swift */,
+				FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */,
+				FE0D03A52433B75B0076B9FA /* ViewController.swift */,
+				FE0D03A72433B75B0076B9FA /* Main.storyboard */,
+				FE0D03AA2433B75D0076B9FA /* Assets.xcassets */,
+				FE0D03AC2433B75D0076B9FA /* LaunchScreen.storyboard */,
+				FE0D03AF2433B75D0076B9FA /* Info.plist */,
+			);
+			path = moradiaCompartilhada;
+			sourceTree = "<group>";
+		};
+		FE0D03B72433B75D0076B9FA /* moradiaCompartilhadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D03B82433B75D0076B9FA /* moradiaCompartilhadaTests.swift */,
+				FE0D03BA2433B75D0076B9FA /* Info.plist */,
+			);
+			path = moradiaCompartilhadaTests;
+			sourceTree = "<group>";
+		};
+		FE0D03C22433B75D0076B9FA /* moradiaCompartilhadaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D03C32433B75D0076B9FA /* moradiaCompartilhadaUITests.swift */,
+				FE0D03C52433B75D0076B9FA /* Info.plist */,
+			);
+			path = moradiaCompartilhadaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0D039D2433B75B0076B9FA /* moradiaCompartilhada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0D03C82433B75D0076B9FA /* Build configuration list for PBXNativeTarget "moradiaCompartilhada" */;
+			buildPhases = (
+				FE0D039A2433B75B0076B9FA /* Sources */,
+				FE0D039B2433B75B0076B9FA /* Frameworks */,
+				FE0D039C2433B75B0076B9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moradiaCompartilhada;
+			productName = moradiaCompartilhada;
+			productReference = FE0D039E2433B75B0076B9FA /* moradiaCompartilhada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE0D03B32433B75D0076B9FA /* moradiaCompartilhadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0D03CB2433B75D0076B9FA /* Build configuration list for PBXNativeTarget "moradiaCompartilhadaTests" */;
+			buildPhases = (
+				FE0D03B02433B75D0076B9FA /* Sources */,
+				FE0D03B12433B75D0076B9FA /* Frameworks */,
+				FE0D03B22433B75D0076B9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0D03B62433B75D0076B9FA /* PBXTargetDependency */,
+			);
+			name = moradiaCompartilhadaTests;
+			productName = moradiaCompartilhadaTests;
+			productReference = FE0D03B42433B75D0076B9FA /* moradiaCompartilhadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE0D03BE2433B75D0076B9FA /* moradiaCompartilhadaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0D03CE2433B75D0076B9FA /* Build configuration list for PBXNativeTarget "moradiaCompartilhadaUITests" */;
+			buildPhases = (
+				FE0D03BB2433B75D0076B9FA /* Sources */,
+				FE0D03BC2433B75D0076B9FA /* Frameworks */,
+				FE0D03BD2433B75D0076B9FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0D03C12433B75D0076B9FA /* PBXTargetDependency */,
+			);
+			name = moradiaCompartilhadaUITests;
+			productName = moradiaCompartilhadaUITests;
+			productReference = FE0D03BF2433B75D0076B9FA /* moradiaCompartilhadaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0D03962433B75B0076B9FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rafael Wei";
+				TargetAttributes = {
+					FE0D039D2433B75B0076B9FA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FE0D03B32433B75D0076B9FA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FE0D039D2433B75B0076B9FA;
+					};
+					FE0D03BE2433B75D0076B9FA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FE0D039D2433B75B0076B9FA;
+					};
+				};
+			};
+			buildConfigurationList = FE0D03992433B75B0076B9FA /* Build configuration list for PBXProject "moradiaCompartilhada" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0D03952433B75B0076B9FA;
+			productRefGroup = FE0D039F2433B75B0076B9FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0D039D2433B75B0076B9FA /* moradiaCompartilhada */,
+				FE0D03B32433B75D0076B9FA /* moradiaCompartilhadaTests */,
+				FE0D03BE2433B75D0076B9FA /* moradiaCompartilhadaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0D039C2433B75B0076B9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D03AE2433B75D0076B9FA /* LaunchScreen.storyboard in Resources */,
+				FE0D03AB2433B75D0076B9FA /* Assets.xcassets in Resources */,
+				FE0D03A92433B75B0076B9FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0D03B22433B75D0076B9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0D03BD2433B75D0076B9FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0D039A2433B75B0076B9FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D03A62433B75B0076B9FA /* ViewController.swift in Sources */,
+				FE0D03A22433B75B0076B9FA /* AppDelegate.swift in Sources */,
+				FE0D03A42433B75B0076B9FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0D03B02433B75D0076B9FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D03B92433B75D0076B9FA /* moradiaCompartilhadaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0D03BB2433B75D0076B9FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D03C42433B75D0076B9FA /* moradiaCompartilhadaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE0D03B62433B75D0076B9FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0D039D2433B75B0076B9FA /* moradiaCompartilhada */;
+			targetProxy = FE0D03B52433B75D0076B9FA /* PBXContainerItemProxy */;
+		};
+		FE0D03C12433B75D0076B9FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0D039D2433B75B0076B9FA /* moradiaCompartilhada */;
+			targetProxy = FE0D03C02433B75D0076B9FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0D03A72433B75B0076B9FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0D03A82433B75B0076B9FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0D03AC2433B75D0076B9FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0D03AD2433B75D0076B9FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0D03C62433B75D0076B9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE0D03C72433B75D0076B9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0D03C92433B75D0076B9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL43V8US7X;
+				INFOPLIST_FILE = moradiaCompartilhada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wei.moradiaCompartilhada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0D03CA2433B75D0076B9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL43V8US7X;
+				INFOPLIST_FILE = moradiaCompartilhada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wei.moradiaCompartilhada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE0D03CC2433B75D0076B9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL43V8US7X;
+				INFOPLIST_FILE = moradiaCompartilhadaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wei.moradiaCompartilhadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moradiaCompartilhada.app/moradiaCompartilhada";
+			};
+			name = Debug;
+		};
+		FE0D03CD2433B75D0076B9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL43V8US7X;
+				INFOPLIST_FILE = moradiaCompartilhadaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wei.moradiaCompartilhadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moradiaCompartilhada.app/moradiaCompartilhada";
+			};
+			name = Release;
+		};
+		FE0D03CF2433B75D0076B9FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL43V8US7X;
+				INFOPLIST_FILE = moradiaCompartilhadaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wei.moradiaCompartilhadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moradiaCompartilhada;
+			};
+			name = Debug;
+		};
+		FE0D03D02433B75D0076B9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL43V8US7X;
+				INFOPLIST_FILE = moradiaCompartilhadaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wei.moradiaCompartilhadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moradiaCompartilhada;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0D03992433B75B0076B9FA /* Build configuration list for PBXProject "moradiaCompartilhada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0D03C62433B75D0076B9FA /* Debug */,
+				FE0D03C72433B75D0076B9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0D03C82433B75D0076B9FA /* Build configuration list for PBXNativeTarget "moradiaCompartilhada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0D03C92433B75D0076B9FA /* Debug */,
+				FE0D03CA2433B75D0076B9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0D03CB2433B75D0076B9FA /* Build configuration list for PBXNativeTarget "moradiaCompartilhadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0D03CC2433B75D0076B9FA /* Debug */,
+				FE0D03CD2433B75D0076B9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0D03CE2433B75D0076B9FA /* Build configuration list for PBXNativeTarget "moradiaCompartilhadaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0D03CF2433B75D0076B9FA /* Debug */,
+				FE0D03D02433B75D0076B9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0D03962433B75B0076B9FA /* Project object */;
+}
