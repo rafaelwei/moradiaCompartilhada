@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func tfEmail(_ sender: Any) {
+    }
+    @IBAction func tfSenha(_ sender: Any) {
+    }
+    
     @IBAction func btnLogin(_ sender: Any) {
     }
     
