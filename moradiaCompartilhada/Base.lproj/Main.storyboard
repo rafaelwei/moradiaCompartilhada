@@ -22,15 +22,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fR-p5-5ke">
-                                <rect key="frame" x="36" y="233" width="343" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="tfEmail:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="pHa-zV-JJE"/>
-                                </connections>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRO-kX-2Xa">
                                 <rect key="frame" x="115" y="377" width="184" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -51,6 +42,15 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="tfSenha:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="3XZ-by-Vqu"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fR-p5-5ke">
+                                <rect key="frame" x="36" y="228" width="343" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="tfEmail:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="pHa-zV-JJE"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -77,16 +77,57 @@
                                     <navigationItem title="Busca" id="FWX-hE-xGE"/>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vav-4v-pDP">
+                                <rect key="frame" x="143" y="141" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8OF-Iv-WJz">
+                                <rect key="frame" x="20" y="290" width="374" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TF0-JA-BVy">
+                                <rect key="frame" x="154" y="416" width="106" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Procurar um lar"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmW-Hm-UAL">
+                                <rect key="frame" x="110" y="489" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Procurar alguém para dividir"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJP-1c-1D6">
+                                <rect key="frame" x="156" y="567" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Publicar um lar"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sfD-yO-xQq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Busca" id="dpX-jw-D6o"/>
+                    <tabBarItem key="tabBarItem" title="Busca" image="magnifyingglass" catalog="system" id="dpX-jw-D6o"/>
                     <navigationItem key="navigationItem" id="eMo-ab-Cca"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OZG-MD-AoL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1714" y="115"/>
+            <point key="canvasLocation" x="1654" y="510"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ehd-gw-NX0">
+            <objects>
+                <viewController id="Z1i-1F-Mbs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mFw-7f-4Dh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tzO-hv-tHz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pu3-qA-49H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1654" y="1220"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="Vt3-mg-JhC">
@@ -107,7 +148,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="leD-rE-CI6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Perfil" id="9Kz-L9-svo"/>
+                    <tabBarItem key="tabBarItem" title="Perfil" image="person" catalog="system" id="9Kz-L9-svo"/>
                     <navigationItem key="navigationItem" id="44u-dw-dqR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntY-xT-3fz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -133,7 +174,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oFs-Uw-TFr"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Inbox" id="YEh-gC-g2o"/>
+                    <tabBarItem key="tabBarItem" title="Inbox" image="message" catalog="system" id="YEh-gC-g2o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lfq-0n-Vlo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,6 +187,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="db2-5a-ZKY"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XIM-81-nHX">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -160,4 +202,9 @@
             <point key="canvasLocation" x="804" y="115"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+    </resources>
 </document>
