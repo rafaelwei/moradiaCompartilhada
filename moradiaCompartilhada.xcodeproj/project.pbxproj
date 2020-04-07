@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BFB651E243C19EB00F7EFB4 /* Busca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB651D243C19EB00F7EFB4 /* Busca.swift */; };
+		5BFB6520243C2A8A00F7EFB4 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB651F243C2A8A00F7EFB4 /* Perfil.swift */; };
 		FE0D03A22433B75B0076B9FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A12433B75B0076B9FA /* AppDelegate.swift */; };
 		FE0D03A42433B75B0076B9FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */; };
 		FE0D03A62433B75B0076B9FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A52433B75B0076B9FA /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BFB651D243C19EB00F7EFB4 /* Busca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Busca.swift; sourceTree = "<group>"; };
+		5BFB651F243C2A8A00F7EFB4 /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
 		FE0D039E2433B75B0076B9FA /* moradiaCompartilhada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moradiaCompartilhada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0D03A12433B75B0076B9FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				FE0D03A12433B75B0076B9FA /* AppDelegate.swift */,
 				FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */,
 				FE0D03A52433B75B0076B9FA /* ViewController.swift */,
+				5BFB651D243C19EB00F7EFB4 /* Busca.swift */,
+				5BFB651F243C2A8A00F7EFB4 /* Perfil.swift */,
 				FE0D03A72433B75B0076B9FA /* Main.storyboard */,
 				FE0D03AA2433B75D0076B9FA /* Assets.xcassets */,
 				FE0D03AC2433B75D0076B9FA /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFB6520243C2A8A00F7EFB4 /* Perfil.swift in Sources */,
+				5BFB651E243C19EB00F7EFB4 /* Busca.swift in Sources */,
 				FE0D03A62433B75B0076B9FA /* ViewController.swift in Sources */,
 				FE0D03A22433B75B0076B9FA /* AppDelegate.swift in Sources */,
 				FE0D03A42433B75B0076B9FA /* SceneDelegate.swift in Sources */,
