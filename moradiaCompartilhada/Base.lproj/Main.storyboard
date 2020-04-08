@@ -273,39 +273,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TF0-JA-BVy">
-                                <rect key="frame" x="76" y="381" width="262" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Procurar um lar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnSearchHome:" destination="dLd-a7-wuf" eventType="touchUpInside" id="JvM-Hw-ksY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hm-5b-aIJ">
-                                <rect key="frame" x="76" y="486" width="262" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Procurar alguém para morar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnSearchMate:" destination="dLd-a7-wuf" eventType="touchUpInside" id="mRA-a3-lIv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qI9-Gk-Dav">
-                                <rect key="frame" x="76" y="592" width="262" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Publicar um lar">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnPublishHome:" destination="dLd-a7-wuf" eventType="touchUpInside" id="bmJ-Bp-b4c"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Vav-4v-pDP">
                                 <rect key="frame" x="132" y="145" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -320,6 +287,19 @@
                                     <segue destination="5GN-Yw-eQp" kind="show" id="ag7-MF-eUt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcq-7C-uEG">
+                                <rect key="frame" x="160" y="406" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Procurar casa"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pty-dN-6dS">
+                                <rect key="frame" x="161" y="481" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Publicar casa"/>
+                                <connections>
+                                    <segue destination="zEr-68-obr" kind="show" id="rPP-Ks-jIx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sfD-yO-xQq"/>
@@ -328,9 +308,6 @@
                     <navigationItem key="navigationItem" id="eMo-ab-Cca"/>
                     <connections>
                         <outlet property="btnEditProfile" destination="LIl-33-fGr" id="qjN-70-r9a"/>
-                        <outlet property="btnPublish" destination="qI9-Gk-Dav" id="FDo-jV-1yp"/>
-                        <outlet property="btnSearchHome" destination="TF0-JA-BVy" id="wzT-9M-qfJ"/>
-                        <outlet property="btnSearchMate" destination="4Hm-5b-aIJ" id="5jQ-Ev-TvZ"/>
                         <outlet property="ivProfilePicture" destination="Vav-4v-pDP" id="Rca-dV-fmU"/>
                         <outlet property="lbUserName" destination="8OF-Iv-WJz" id="hF9-6r-hr6"/>
                     </connections>
@@ -421,20 +398,31 @@
             </objects>
             <point key="canvasLocation" x="2457.971014492754" y="869.86607142857144"/>
         </scene>
-        <!--View Controller-->
+        <!--Exemplo-->
         <scene sceneID="Ehd-gw-NX0">
             <objects>
-                <viewController id="Z1i-1F-Mbs" sceneMemberID="viewController">
+                <viewController id="Z1i-1F-Mbs" customClass="Exemplo" customModule="moradiaCompartilhada" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mFw-7f-4Dh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="tzO-hv-tHz"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9Ip-97-0Oh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pu3-qA-49H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="803" y="870"/>
+        </scene>
+        <!--5-Casa-->
+        <scene sceneID="53v-8n-5oH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="5-Casa" id="zEr-68-obr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kRG-Wn-Via"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZsU-Fh-kDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1654" y="1056"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="Vt3-mg-JhC">
@@ -935,7 +923,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JAd-wx-6f2"/>
+        <segue reference="ag7-MF-eUt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="4000" height="6000"/>
