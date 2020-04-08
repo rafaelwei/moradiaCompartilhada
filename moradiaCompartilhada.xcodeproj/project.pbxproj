@@ -10,13 +10,6 @@
 		5BFB651E243C19EB00F7EFB4 /* Busca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB651D243C19EB00F7EFB4 /* Busca.swift */; };
 		5BFB6520243C2A8A00F7EFB4 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB651F243C2A8A00F7EFB4 /* Perfil.swift */; };
 		5BFB6522243CD4FD00F7EFB4 /* viewProfileEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB6521243CD4FD00F7EFB4 /* viewProfileEditing.swift */; };
-		EB0CB024243D05900073A541 /* 0-Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0CB023243D05900073A541 /* 0-Launch.storyboard */; };
-		EB0CB026243D05B60073A541 /* 1-NavBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0CB025243D05B60073A541 /* 1-NavBar.storyboard */; };
-		EB0CB028243D05C20073A541 /* 2-Busca.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0CB027243D05C20073A541 /* 2-Busca.storyboard */; };
-		EB0CB02A243D05EB0073A541 /* 3-Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0CB029243D05EB0073A541 /* 3-Profile.storyboard */; };
-		EB0CB02C243D05FA0073A541 /* 4-Inbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0CB02B243D05FA0073A541 /* 4-Inbox.storyboard */; };
-		EB0CB02E243D060E0073A541 /* 5-Casa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0CB02D243D060E0073A541 /* 5-Casa.storyboard */; };
-		EB0CB032243D06230073A541 /* 6-Cadastro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0CB031243D06230073A541 /* 6-Cadastro.storyboard */; };
 		FE0D03A22433B75B0076B9FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A12433B75B0076B9FA /* AppDelegate.swift */; };
 		FE0D03A42433B75B0076B9FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */; };
 		FE0D03A62433B75B0076B9FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D03A52433B75B0076B9FA /* ViewController.swift */; };
@@ -48,13 +41,6 @@
 		5BFB651D243C19EB00F7EFB4 /* Busca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Busca.swift; sourceTree = "<group>"; };
 		5BFB651F243C2A8A00F7EFB4 /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
 		5BFB6521243CD4FD00F7EFB4 /* viewProfileEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewProfileEditing.swift; sourceTree = "<group>"; };
-		EB0CB023243D05900073A541 /* 0-Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "0-Launch.storyboard"; sourceTree = "<group>"; };
-		EB0CB025243D05B60073A541 /* 1-NavBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "1-NavBar.storyboard"; sourceTree = "<group>"; };
-		EB0CB027243D05C20073A541 /* 2-Busca.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "2-Busca.storyboard"; sourceTree = "<group>"; };
-		EB0CB029243D05EB0073A541 /* 3-Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "3-Profile.storyboard"; sourceTree = "<group>"; };
-		EB0CB02B243D05FA0073A541 /* 4-Inbox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "4-Inbox.storyboard"; sourceTree = "<group>"; };
-		EB0CB02D243D060E0073A541 /* 5-Casa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "5-Casa.storyboard"; sourceTree = "<group>"; };
-		EB0CB031243D06230073A541 /* 6-Cadastro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "6-Cadastro.storyboard"; sourceTree = "<group>"; };
 		FE0D039E2433B75B0076B9FA /* moradiaCompartilhada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moradiaCompartilhada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0D03A12433B75B0076B9FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,20 +108,13 @@
 				FE0D03A12433B75B0076B9FA /* AppDelegate.swift */,
 				FE0D03A32433B75B0076B9FA /* SceneDelegate.swift */,
 				FE0D03A52433B75B0076B9FA /* ViewController.swift */,
-				5BFB6521243CD4FD00F7EFB4 /* viewProfileEditing.swift */,
-				FE0D03AC2433B75D0076B9FA /* LaunchScreen.storyboard */,
-				EB0CB023243D05900073A541 /* 0-Launch.storyboard */,
-				EB0CB025243D05B60073A541 /* 1-NavBar.storyboard */,
-				EB0CB027243D05C20073A541 /* 2-Busca.storyboard */,
-				EB0CB029243D05EB0073A541 /* 3-Profile.storyboard */,
-				EB0CB02B243D05FA0073A541 /* 4-Inbox.storyboard */,
-				EB0CB02D243D060E0073A541 /* 5-Casa.storyboard */,
-				EB0CB031243D06230073A541 /* 6-Cadastro.storyboard */,
-				FE0D03A72433B75B0076B9FA /* Main.storyboard */,
-				FE0D03AA2433B75D0076B9FA /* Assets.xcassets */,
-				FE0D03AF2433B75D0076B9FA /* Info.plist */,
 				5BFB651D243C19EB00F7EFB4 /* Busca.swift */,
 				5BFB651F243C2A8A00F7EFB4 /* Perfil.swift */,
+				5BFB6521243CD4FD00F7EFB4 /* viewProfileEditing.swift */,
+				FE0D03A72433B75B0076B9FA /* Main.storyboard */,
+				FE0D03AA2433B75D0076B9FA /* Assets.xcassets */,
+				FE0D03AC2433B75D0076B9FA /* LaunchScreen.storyboard */,
+				FE0D03AF2433B75D0076B9FA /* Info.plist */,
 			);
 			path = moradiaCompartilhada;
 			sourceTree = "<group>";
@@ -262,15 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0CB02E243D060E0073A541 /* 5-Casa.storyboard in Resources */,
 				FE0D03AE2433B75D0076B9FA /* LaunchScreen.storyboard in Resources */,
-				EB0CB032243D06230073A541 /* 6-Cadastro.storyboard in Resources */,
-				EB0CB028243D05C20073A541 /* 2-Busca.storyboard in Resources */,
-				EB0CB02C243D05FA0073A541 /* 4-Inbox.storyboard in Resources */,
 				FE0D03AB2433B75D0076B9FA /* Assets.xcassets in Resources */,
-				EB0CB026243D05B60073A541 /* 1-NavBar.storyboard in Resources */,
-				EB0CB02A243D05EB0073A541 /* 3-Profile.storyboard in Resources */,
-				EB0CB024243D05900073A541 /* 0-Launch.storyboard in Resources */,
 				FE0D03A92433B75B0076B9FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
