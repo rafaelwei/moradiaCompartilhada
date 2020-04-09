@@ -16,15 +16,11 @@ var occupation = "Graduação"
 var occupationLocal = "PUC-Rio"
 
 
-class Busca: UIViewController {
+class SearchViewController: UIViewController {
     
     // Assets
     @IBOutlet weak var ivProfilePicture: UIImageView!
     @IBOutlet weak var lbUserName: UILabel!
-    
-   // @IBOutlet weak var btnSearchHome: UIButton!
-   // @IBOutlet weak var btnSearchMate: UIButton!
-   // @IBOutlet weak var btnPublish: UIButton!
     @IBOutlet weak var btnEditProfile: UIButton!
     
     
@@ -56,16 +52,7 @@ class Busca: UIViewController {
     ivProfilePicture.layer.masksToBounds = true
     
         lbUserName.text = "Olá," + " " + firstName + "!"
-        
-     /*   btnSearchHome.layer.cornerRadius = 15.0
-        btnSearchHome.layer.masksToBounds = true
-        
-        btnSearchMate.layer.cornerRadius = 15.0
-        btnSearchMate.layer.masksToBounds = true
-        
-        btnPublish.layer.cornerRadius = 15.0
-        btnPublish.layer.masksToBounds = true    */
-        
+                
         btnEditProfile.layer.cornerRadius = 20.0
         btnEditProfile.layer.masksToBounds = true
         

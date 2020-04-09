@@ -9,7 +9,7 @@
 import UIKit
 
 
-class viewProfileEditing: UIViewController {
+class ViewProfileEditor: UIViewController {
     
     
     @IBAction func tfUserName(_ sender: Any) {

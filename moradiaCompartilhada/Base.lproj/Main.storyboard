@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <userGuides>
                             <userLayoutGuide location="398" affinity="minX"/>
-                            <userLayoutGuide location="16" affinity="minX"/>
+                            <userLayoutGuide location="8" affinity="minX"/>
                         </userGuides>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7PP-uY-3zt">
@@ -127,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G4F-ev-lcd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1764" y="101"/>
+            <point key="canvasLocation" x="-959" y="115"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="weu-Q2-fDz">
@@ -194,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jsy-wT-zkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1765" y="870"/>
+            <point key="canvasLocation" x="-59" y="549"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -249,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57.971014492753625" y="114.50892857142857"/>
+            <point key="canvasLocation" x="-59" y="-313"/>
         </scene>
         <!--Busca-->
         <scene sceneID="a5u-TD-EBh">
@@ -293,12 +293,14 @@
                                 <state key="normal" title="Procurar casa"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pty-dN-6dS">
-                                <rect key="frame" x="161" y="481" width="92" height="30"/>
+                                <rect key="frame" x="160" y="551" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Publicar casa"/>
-                                <connections>
-                                    <segue destination="zEr-68-obr" kind="show" id="rPP-Ks-jIx"/>
-                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLU-vL-Yh3">
+                                <rect key="frame" x="148" y="474" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Procurar pessoas"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -314,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OZG-MD-AoL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1653.6231884057972" y="512.94642857142856"/>
+            <point key="canvasLocation" x="1867" y="479"/>
         </scene>
         <!--View Profile Editing-->
         <scene sceneID="Xvf-Rq-GDo">
@@ -396,33 +398,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zxX-y4-P1I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="6K8-GY-Sg5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2457.971014492754" y="869.86607142857144"/>
-        </scene>
-        <!--Exemplo-->
-        <scene sceneID="Ehd-gw-NX0">
-            <objects>
-                <viewController id="Z1i-1F-Mbs" customClass="Exemplo" customModule="moradiaCompartilhada" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mFw-7f-4Dh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="tzO-hv-tHz"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="9Ip-97-0Oh"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pu3-qA-49H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="803" y="870"/>
-        </scene>
-        <!--5-Casa-->
-        <scene sceneID="53v-8n-5oH">
-            <objects>
-                <viewControllerPlaceholder storyboardName="5-Casa" id="zEr-68-obr" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="kRG-Wn-Via"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZsU-Fh-kDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1654" y="1056"/>
+            <point key="canvasLocation" x="3006" y="-668"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="Vt3-mg-JhC">
@@ -492,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntY-xT-3fz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2457.971014492754" y="114.50892857142857"/>
+            <point key="canvasLocation" x="1867" y="-668"/>
         </scene>
         <!--Inbox-->
         <scene sceneID="Dsu-bo-7x4">
@@ -517,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lfq-0n-Vlo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3217" y="115"/>
+            <point key="canvasLocation" x="3006" y="115"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="v0h-R2-7XV">
@@ -919,11 +895,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ooG-jJ-HLW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58" y="870"/>
+            <point key="canvasLocation" x="1867" y="1317"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ag7-MF-eUt"/>
+        <segue reference="JAd-wx-6f2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="4000" height="6000"/>

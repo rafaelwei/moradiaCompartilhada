@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Busca-->
+        <!--Search-->
         <scene sceneID="5tl-Lz-fcj">
             <objects>
-                <viewController storyboardIdentifier="Busca" modalPresentationStyle="fullScreen" id="8G9-i9-6bK" customClass="Busca" customModule="moradiaCompartilhada" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Search" title="Search" modalPresentationStyle="fullScreen" id="8G9-i9-6bK" customClass="Busca" customModule="moradiaCompartilhada" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sGd-iA-8yV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BlE-8O-XQV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1635" y="76"/>
+            <point key="canvasLocation" x="1675" y="-219"/>
+        </scene>
+        <!--ResultsOnly-->
+        <scene sceneID="QjQ-rS-zGu">
+            <objects>
+                <viewController title="ResultsOnly" id="6kT-Nd-zw1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XFh-21-FyX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="7w6-1L-hSG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y2w-uy-u6A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2729" y="338"/>
+        </scene>
+        <!--SearchFilters-->
+        <scene sceneID="KFe-NA-xgg">
+            <objects>
+                <viewController title="SearchFilters" id="AHt-R9-ALH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ttr-8Y-Icj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="YNa-Qc-koB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kDR-MK-Gvd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3804" y="-220"/>
+        </scene>
+        <!--ResultsMatch-->
+        <scene sceneID="DHU-bc-TQh">
+            <objects>
+                <viewController title="ResultsMatch" id="Qn4-KA-hKb" customClass="ViewChat" customModule="moradiaCompartilhada" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mVT-h2-MiX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fS1-Mk-Bya"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sns-F5-3Km" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2729" y="-765"/>
         </scene>
     </scenes>
     <resources>

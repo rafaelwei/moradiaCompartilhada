@@ -1,23 +1,19 @@
 //
-//  Perfil.swift
+//  LaunchViewController.swift
 //  moradiaCompartilhada
 //
-//  Created by Victor Duarte on 07/04/20.
+//  Created by Victor Duarte on 09/04/20.
 //  Copyright © 2020 Rafael Wei. All rights reserved.
 //
 
 import UIKit
 
-class Perfil: UIViewController {
+class LaunchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        
-        
-
     }
     
 
@@ -30,11 +26,5 @@ class Perfil: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    
-    
-    
-    
-    
 
 }

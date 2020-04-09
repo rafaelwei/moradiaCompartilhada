@@ -32,6 +32,36 @@
             </objects>
             <point key="canvasLocation" x="3220" y="77"/>
         </scene>
+        <!--Chat-->
+        <scene sceneID="8bu-sg-R3o">
+            <objects>
+                <viewController title="Chat" id="JjM-Yo-xXQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zeb-wC-GeC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pQS-PU-SI7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15f-vh-EoE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4220" y="76"/>
+        </scene>
+        <!--ChatPopUp-->
+        <scene sceneID="d6N-aL-la8">
+            <objects>
+                <viewController title="ChatPopUp" id="TKW-Rw-MNe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UO3-YQ-xNm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2bo-MJ-Acs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xse-SU-M2G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5207" y="76"/>
+        </scene>
     </scenes>
     <resources>
         <image name="message" catalog="system" width="128" height="113"/>
